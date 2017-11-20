@@ -1,0 +1,15 @@
+<p>
+  grid works!
+</p>
+
+<agm-map style="height: 600px" [latitude]="51.673858" [longitude]="7.815982" [zoom]="16">
+  <agm-marker [latitude]="51.673858" [longitude]="7.815982">
+    <agm-snazzy-info-window [maxWidth]="200" [closeWhenOthersOpen]="true">
+      <ng-template>
+        My first Snazzy Info Window!
+      </ng-template>
+    </agm-snazzy-info-window>
+  </agm-marker>
+</agm-map>
+
+
